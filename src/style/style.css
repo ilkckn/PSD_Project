@@ -8,8 +8,9 @@
   font-size: 62.5%;
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Lilita One', sans-serif;
-  --primary-bg-color: #FFB552;
-  --secondary-bg-color: #FECB8C;
+  --font-third: 'Amaranth', sans-serif;
+  --primary-bg-color: rgb(255, 181, 82);
+  --secondary-bg-color: rgb(254, 203, 140);
   --third-bg-color: #F6F0E4;
 }
 
@@ -20,7 +21,5 @@ body {
 }
 
 .container {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
+  background-color: var(--third-bg-color);
 }
