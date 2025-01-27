@@ -1,4 +1,4 @@
-.container {
+
   header {
     width: 100%;
     background-color: var(--primary-bg-color);
@@ -130,4 +130,3 @@
       }
     }
   }
-}
