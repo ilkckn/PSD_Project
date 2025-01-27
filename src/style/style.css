@@ -6,17 +6,17 @@
 
 :root {
   font-size: 62.5%;
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Lilita One', sans-serif;
-  --primary-bg-color: #FFB552;
-  --secondary-bg-color: #FECB8C;
-  --third-bg-color: #F6F0E4;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Lilita One", sans-serif;
+  --primary-bg-color: #ffb552;
+  --secondary-bg-color: #fecb8c;
+  --third-bg-color: #f6f0e4;
 }
 
 body {
   width: 100%;
   height: 100%;
-  border-color: var(--third-bg-color);
+  background-color: var(--third-bg-color);
 }
 
 .container {
