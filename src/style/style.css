@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Lilita One', sans-serif;
+  --primary-bg-color: #FFB552;
+  --secondary-bg-color: #FECB8C;
+  --third-bg-color: #F6F0E4;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
