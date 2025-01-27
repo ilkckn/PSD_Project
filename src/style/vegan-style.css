@@ -1,0 +1,47 @@
+.vegan-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 6.8rem;
+}
+
+.vegan-img {
+  border-radius: 50%;
+  background-color: var(--primary-bg-color);
+  padding: 1.5rem;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+.vegan-info {
+  color: #4d2111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.vegan-tittle {
+  font-size: 4.8rem;
+}
+
+.vegan-description {
+  font-size: 1.8rem;
+  max-width: 50ch;
+}
+
+.vegan-btn {
+  width: 40%;
+  height: 3rem;
+  background-color: #44633f;
+  color: #fff;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.vegan-btn:hover {
+  background-color: #fff;
+  color: #44633f;
+}
