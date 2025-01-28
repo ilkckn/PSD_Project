@@ -18,7 +18,7 @@ main {
       h1 {
         font-family: var(--font-fourth);
         font-weight: 800;
-        font-size: clamp(2.2rem, 5vw, 9rem);
+        font-size: clamp(2.2rem, 5vw, 7rem);
         color: #8d5a31;
         text-transform: capitalize;
       }
