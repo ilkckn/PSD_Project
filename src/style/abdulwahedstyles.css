@@ -77,7 +77,7 @@ img {
 
 .team-member img {
   display: block;
-  width: 250px;
+  width: 130px;
 
   height: auto;
 
@@ -138,7 +138,7 @@ section-footer {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 7rem;
+  gap: 1rem;
 }
 
 .footer-section {
@@ -146,7 +146,7 @@ section-footer {
   margin: 10px;
 }
 
-.footer-section h3 {
+.footer-section h2 {
   font-size: 2rem;
   margin-bottom: 15px;
 }
@@ -201,5 +201,6 @@ section-footer {
 
   .team-member img {
     width: 150px;
+    
   }
 }
