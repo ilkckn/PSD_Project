@@ -55,13 +55,16 @@ img {
 
 }
 
-.teambox{
+.teambox {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10rem;
+  flex-wrap: wrap;
+  gap: 10rem;
   margin-top: 5rem;
+
 }
+
 .team-member {
   display: flex;
   flex-direction: column;
@@ -76,7 +79,6 @@ img {
   display: block;
   width: 250px;
 
- 
   height: auto;
 
 }
@@ -87,7 +89,7 @@ img {
   font-size: 16px;
   color: #5f2525;
   font-size: 18px;
- 
+
 }
 
 .team-member h2 {
@@ -105,7 +107,7 @@ section-footer {
 
 .Our-team {
   margin-top: 50px;
-  font-size: 60px;
+  font-size: clamp(3rem, 6.5vw, 6rem);
   color: #5f2525;
   margin-bottom: 3rem;
 
@@ -113,8 +115,91 @@ section-footer {
 
 .pteam {
 
-  font-size: 35px;
+
   color: #5f2525;
+  font-size: clamp(1.5rem, 6.5vw, 2rem);
 
 }
 
+
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  font-size: 1.5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 7rem;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f4a261;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 375px) {
+  .Our-team {
+    font-size: 3rem;
+    background-color: red;
+  }
+
+  .team-member img {
+    width: 150px;
+  }
+}
