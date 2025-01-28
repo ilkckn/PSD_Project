@@ -82,7 +82,6 @@
     font-size: 2rem;
   }
   .vegan-btn {
-    width: 60%;
     height: 5rem;
   }
 }
@@ -98,8 +97,8 @@
   }
 
   .vegan-figure {
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
   }
   .vegan-tittle {
     font-size: 4.5rem;
@@ -108,7 +107,8 @@
     font-size: 1.8rem;
   }
   .vegan-btn {
-    height: 4rem;
+    height: 5rem;
+    width: 40%;
     font-size: 1.5rem;
     margin: 0 auto;
   }
@@ -123,18 +123,14 @@
   }
 
   .vegan-figure {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
   }
   .vegan-tittle {
     font-size: 3.5rem;
   }
   .vegan-description {
     font-size: 1.3rem;
-  }
-  .vegan-btn {
-    height: 3rem;
-    font-size: 1.2rem;
   }
 }
 
@@ -149,10 +145,17 @@
   }
 
   .vegan-figure {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
   }
   .vegan-btn {
     margin: 0 auto;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .vegan-btn {
+    font-size: 1.2rem;
   }
 }
