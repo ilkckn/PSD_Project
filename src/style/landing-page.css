@@ -82,9 +82,9 @@ main {
 
       h1 {
         font-size: clamp(3rem, 6.5vw, 15rem); 
-        line-height: clamp(3rem, 6.3vw, 12rem); 
-        font-weight: 700;
-        font-family: var(--font-third);
+        line-height: clamp(3rem, 6.3vw, 14rem); 
+        font-weight: 900;
+        font-family: var(--font-fourth);
         color: #4d2111;
         max-width: 80%;
       }
@@ -257,7 +257,7 @@ main {
 
       .right {
         margin-right: 0rem;
-        width: 55%;
+        width: 50%;
       }
     }
   }
