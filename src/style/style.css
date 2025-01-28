@@ -12,13 +12,13 @@
   --font-fourth: "Merriweather", serif;
   --primary-bg-color: rgb(255, 181, 82);
   --secondary-bg-color: rgb(254, 203, 140);
-  --third-bg-color: #F6F0E4;
+  --third-bg-color: #f6f0e4;
 }
 
 body {
   width: 100%;
   height: 100%;
-  border-color: var(--third-bg-color);
+  background-color: var(--third-bg-color);
 }
 
 .container {
