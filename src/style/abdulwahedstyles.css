@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Lilita One', sans-serif;
+  --primary-bg-color: #FFB552;
+  --secondary-bg-color: #FECB8C;
+  --third-bg-color: #F6F0E4;
+}
+
+
+body {
+  width: 100%;
+  height: 100%;
+  border-color: var(--third-bg-color);
+}
+
+
+
+img {
+  width: 13rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.container2 {
+  background-color: #F6F0E4;
+
+
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.teamhead {
+  direction: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 70%;
+
+}
+
+.teambox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10rem;
+  margin-top: 5rem;
+}
+.team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.team-member img {
+  display: block;
+  width: 250px;
+
+ 
+  height: auto;
+
+}
+
+.team-member span {
+  margin-top: 10px;
+  display: block;
+  font-size: 16px;
+  color: #5f2525;
+  font-size: 18px;
+ 
+}
+
+.team-member h2 {
+  font-size: 30px;
+  color: #5f2525;
+  font-family: "Merriweather", serif;
+
+}
+
+section-footer {
+  background-color: black;
+
+
+}
+
+.Our-team {
+  margin-top: 50px;
+  font-size: 60px;
+  color: #5f2525;
+  margin-bottom: 3rem;
+
+}
+
+.pteam {
+
+  font-size: 35px;
+  color: #5f2525;
+
+}
+
