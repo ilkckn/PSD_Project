@@ -29,16 +29,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 8rem;
+  gap: 5rem;
 }
 
 .vegan-tittle {
   color: #8d5a31;
-  font-size: 6.8rem;
+  font-size: 7rem;
+  font-family: var(--font-fourth);
+  font-weight: 800;
 }
 
 .vegan-description {
-  font-size: 3rem;
+  font-size: 2.2rem;
+  font-family: var(--font-primary);
   max-width: 50ch;
 }
 
@@ -104,10 +107,10 @@
     height: 30rem;
   }
   .vegan-tittle {
-    font-size: 4.5rem;
+    font-size: 6rem;
   }
   .vegan-description {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .vegan-btn {
     height: 4rem;
