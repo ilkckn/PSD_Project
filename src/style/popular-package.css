@@ -1,0 +1,63 @@
+.package-tittle {
+  text-align: center;
+  color: #4d2111;
+  font-size: 6rem;
+  font-family: var(--font-primary);
+}
+
+.package-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4d2111;
+  font-family: var(--font-primary);
+  gap: 10rem;
+  margin-top: 6.8rem;
+}
+
+.package-card {
+  background-color: #ffdab3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.package-card-tittle {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.package-card-img {
+  width: 40%;
+}
+
+.package-price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.package-card-description {
+  font-size: 1.8rem;
+  max-width: 40ch;
+  text-align: center;
+}
+
+.package-card-btn {
+  width: 90%;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #44633f;
+  color: #fff;
+  letter-spacing: 5px;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.package-card-btn:hover {
+  background-color: #fff;
+  color: #44633f;
+}
