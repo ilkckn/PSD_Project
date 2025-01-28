@@ -1,6 +1,8 @@
-header {
-  width: 100%;
-  background-color: var(--primary-bg-color);
+
+
+  header {
+    width: 100%;
+    background-color: var(--primary-bg-color);
 
   nav {
     width: 100%;
@@ -81,7 +83,7 @@ main {
       margin-left: 10rem;
 
       h1 {
-        font-size: clamp(3rem, 6.5vw, 15rem); 
+        font-size: clamp(3rem, 5.5vw, 15rem); 
         line-height: clamp(3rem, 6.3vw, 14rem); 
         font-weight: 900;
         font-family: var(--font-fourth);
