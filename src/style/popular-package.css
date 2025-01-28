@@ -157,5 +157,16 @@
 
   .package-card-btn {
     height: 3rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .package-tittle {
+    font-size: 2.5rem;
+  }
+
+  .package-card-btn {
+    width: 100%;
   }
 }
