@@ -6,7 +6,7 @@ main {
     align-items: center;
     flex-wrap: wrap-reverse;
     border-top: 2px solid #8d5a31;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
 
 
     .left {
@@ -53,7 +53,7 @@ main {
 
     .right {
       width: 70rem;
-      height: 70rem;
+      height: 60rem;
 
       figure {
         width: 100%;
